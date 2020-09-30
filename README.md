@@ -1,5 +1,5 @@
 # example_portfolio
-Example portfolio using github pages
+Example portfolio using github pages (These data science projects are not mine. I'm just using them as filler tutorial from [here](https://www.youtube.com/watch?v=1aXk2RViq3c))
 
 # [Project 1: Data Science Salary Estimator: Project Overview](https://github.com/PlayingNumbers/ds_salary_proj)
 * Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
