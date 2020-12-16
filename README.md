@@ -10,7 +10,7 @@ A Sampling of Data Science projects that I have completed or I'm working on.
 
 ![](/images/EV_charging_annomalies.png)
 
-# [Project 2: Authorship Identification With Markov Chains Unfinished](https://github.com/efosazuwa/markov_project)
+# [Project 2: Authorship Identification With Markov Chains(Unfinished)](https://github.com/efosazuwa/markov_project)
 For this example project I built an authorship identification model with markov chains as the engine. I presented this as my senior project in probability and the presentation can be found [here](https://docs.google.com/presentation/d/1Hekx661TCKPk-plh0Qi3wfAaYu22OFJeHjzL5LfukWA/edit?usp=sharing). The concept of authorship analysis isn't new but chaining the base results of a markov chain with other machine learning results may net some interesting results
 * I was able to demonstrate a lower probabiity score between a true shakespeare work and a forgery
 * TODO Extract more features to put into a logistic regression
