@@ -1,4 +1,5 @@
-theme: jekyll-theme-slate
-name: Efosa's Portfolio Site
 title: Efosa's Portfolio
+name: Efosa's Portfolio Site
+show_downloads: true
 google_analytics: UA-199284236-1
+theme: jekyll-theme-slate
