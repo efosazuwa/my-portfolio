@@ -27,4 +27,7 @@ For this project I built an authorship identification model with markov chains a
 
 ![](/images/lasso_coefficients.png)
 
-
+# Project 4: Assortment of optimization models
+* This will serve as a growing list of optimization models I've created to keep my Linear Programming skills sharp
+* [Battery Arbitrage](https://github.com/efosazuwa/Battery-Arbitrage)
+*![](/images/plot.png)
