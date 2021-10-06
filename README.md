@@ -9,7 +9,12 @@ For this project I built an authorship identification model with markov chains a
 
 ![](/images/markov_transition_matrix.png)
 
-# [Project 2: Electric Vehicle Charging Detection(Unfinished)](https://colab.research.google.com/drive/1imM6GxT0zFiLUi0VVbpDA_JsNNKIwn16#scrollTo=O6a21YEWCzbF)
+# [Project 2: Covid-19 Worldwide Daily Cases Tracker](https://covid-19-plotly-dash-app.herokuapp.com)
+This project is a dashboard visualization of covid cases around the world.
+
+![](/images/covid_globe.png)
+
+# [Project 3: Electric Vehicle Charging Detection(Unfinished)](https://colab.research.google.com/drive/1imM6GxT0zFiLUi0VVbpDA_JsNNKIwn16#scrollTo=O6a21YEWCzbF)
 * Build visualizations that identify annomalies with seaborn and plotly
 * Engineered features from primary dataset 
 * Investigate annomaly detection with naive gaussian methods, Isolation forests, and Local Outlier Factor. 
@@ -18,7 +23,7 @@ For this project I built an authorship identification model with markov chains a
 
 ![](/images/EV_charging_annomalies.png)
 
-# [Project 3: House Sale Price Prediction and Deployment(Unfinished)](https://github.com/efosazuwa/housing_prices_deployment)
+# [Project 4: House Sale Price Prediction and Deployment(Unfinished)](https://github.com/efosazuwa/housing_prices_deployment)
 * Data Analysis and Data Visualization
 * Engineered features from primary dataset 
 * Predicted Sales Price with a logistic regression. 
@@ -27,7 +32,7 @@ For this project I built an authorship identification model with markov chains a
 
 ![](/images/lasso_coefficients.png)
 
-# Project 4: Assortment of optimization models
+# Project 5: Assortment of optimization models
 * This will serve as a growing list of optimization models I've created to keep my Linear Programming skills sharp
   * [Battery Arbitrage](https://github.com/efosazuwa/Battery-Arbitrage)
 ![](/images/plot.png)
