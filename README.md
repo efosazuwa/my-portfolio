@@ -34,5 +34,6 @@ This project is a dashboard visualization of covid cases around the world.
 
 # Project 5: Assortment of optimization models
 * This will serve as a growing list of optimization models I've created to keep my Linear Programming skills sharp
+  * [Machine Scheduling](https://colab.research.google.com/drive/1KwAVGhLQQXo6nM6NkMKrkK0dPJAWRbE_?usp=sharing)
   * [Battery Arbitrage](https://github.com/efosazuwa/Battery-Arbitrage)
 ![](/images/plot.png)
