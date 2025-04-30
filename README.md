@@ -5,7 +5,7 @@ A sampling of data science projects that I have completed or in progress.
 This represents a project that uses the python data science stack, docker, jenkins and, MLFlow to predict likelihood of a particular reservation being canceled. The project has a clean deployment pipeline that makes it easy to deploy to any cloud provider, GCP was used for this project. 
 ![](/images/lead_time_effect.png)
 
-# [Project 2: Stochastic Optimization for Energy Arbitrage against Renewable Assets](https://github.com/efosazuwa/MLOPS-hotel)
+# [Project 2: Stochastic Optimization for Energy Arbitrage against Renewable Assets](https://github.com/efosazuwa/day-ahead-market-model)
 This represents an advanced pyomo model for minimizing risk for buying and selling on an energy market based on some clearing rules and renewable asset(wind) production.
   * TODO: Use indicator variables to create a less cautious model
 ![](/images/wind_scenarios.png)
