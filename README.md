@@ -1,4 +1,4 @@
-#  Efosa's Portfolio
+#  Efosa Osazuwa's Portfolio
 A sampling of data science projects that I have completed or in progress.
 
 # [Project 1: Full Stack ML pipeline for Hotel Reservation Prediction](https://github.com/efosazuwa/MLOPS-hotel)
