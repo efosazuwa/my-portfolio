@@ -1,5 +1,7 @@
 # Efosa Osazuwa’s Project Portfolio
 
+[My Site](https://efosaosazuwa.com/)
+
 Selected work in energy markets, optimization, and applied machine learning. [Project write-ups and figures](https://efosaosazuwa.com/projects/)
 
 ## Featured projects
