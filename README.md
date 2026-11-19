@@ -1,38 +1,18 @@
-#  Efosa's Portfolio
-A sampling of data science projects that I have completed or in progress.
+# Efosa Osazuwa’s Project Portfolio
 
-# [Project 1: Full Stack ML pipeline for Hotel Reservation Prediction](https://github.com/efosazuwa/MLOPS-hotel)
-This represents a project that uses the python data science stack, docker, jenkins and, MLFlow to predict likelihood of a particular reservation being canceled. The project has a clean deployment pipeline that makes it easy to deploy to any cloud provider, GCP was used for this project. 
-![](/images/lead_time_effect.png)
+Selected work in energy markets, optimization, and applied machine learning. [Project write-ups and figures](https://efosaosazuwa.com/projects/)
 
-# [Project 2: Stochastic Optimization for Energy Arbitrage against Renewable Assets](https://github.com/efosazuwa/day-ahead-market-model)
-This represents an advanced pyomo model for minimizing risk for buying and selling on an energy market based on some clearing rules and renewable asset(wind) production.
-  * TODO: Use indicator variables to create a less cautious model
-![](/images/wind_scenarios.png)
+## Featured projects
 
-# Project 3: Assortment of optimization models
-* This will serve as a growing list of optimization models I've created to keep my Linear Programming skills sharp
-  * **Machine Scheduling** assigns six of nine jobs to three machines for an optimal profit of 37 units. The model uses job slots as capacity. [Runnable notebook](notebooks/machine_scheduling.ipynb) · [Open in Colab](https://colab.research.google.com/drive/1KwAVGhLQQXo6nM6NkMKrkK0dPJAWRbE_?usp=sharing)
+- [Day-Ahead Bidding for Wind Power](https://github.com/efosazuwa/day-ahead-market-model) — A Pyomo model chose one 24-hour schedule across 100 synthetic scenarios and produced 17.25% higher modeled revenue than selling all generation in real time on those same scenarios.
+- [Hotel Reservation Cancellation Prediction](https://github.com/efosazuwa/MLOPS-hotel) — A LightGBM classifier with a local Flask demo reached 87.2% accuracy on 7,255 test bookings, versus 66.3% for a baseline that predicts no cancellations.
 
-    ![One optimal machine assignment showing six jobs and their profit contributions](images/machine_scheduling.png)
-  * [Battery Arbitrage](https://github.com/efosazuwa/Battery-Arbitrage)
-![](/images/plot.png)
+## More projects
 
-# [Project 4: Authorship Identification With Markov Chains(Unfinished)](https://github.com/efosazuwa/markov_project)
-For this project I built an authorship identification model with markov chains as the engine. I presented this as my senior project in probability and the presentation can be found [here](https://docs.google.com/presentation/d/1Hekx661TCKPk-plh0Qi3wfAaYu22OFJeHjzL5LfukWA/edit?usp=sharing). The concept of authorship analysis isn't new but chaining the base results of a markov chain with other machine learning results may net some interesting results
-* I was able to demonstrate a lower probabiity score between a true shakespeare work and a forgery
-* TODO Extract more features to put into a logistic regression
-* TODO Build a client facing API using flask 
+- [All the World’s a Chain](https://github.com/efosazuwa/markov_project) — My original senior research project compared Shakespeare and William Henry Ireland’s *Vortigern and Rowena* using character-level Markov chains. The repo includes the presentation and runnable notebook.
+- [Battery Arbitrage](https://github.com/efosazuwa/Battery-Arbitrage) — A 200 kWh battery charged in the three cheapest hours and discharged in the two most expensive on a historical NYISO day, producing $8.93 in modeled net energy proceeds.
 
-![](/images/markov_transition_matrix.png)
+## Notebooks and experiments
 
-
-# Project 5: EV Charging Detection
-
-This exploratory project uses half-hourly smart-meter readings from 1,590 households to investigate when an EV is charging. The notebook engineers household-level features and explores median absolute deviation, Elliptic Envelope, and Isolation Forest for anomaly detection. The examples compare candidate detections with supplied labels for individual households.
-
-[Open the original notebook in Colab](https://colab.research.google.com/drive/1imM6GxT0zFiLUi0VVbpDA_JsNNKIwn16?usp=sharing)
-
-![Half-hourly meter readings for one household, with supplied EV charging labels marked in red](images/EV_charging_annomalies.png)
-
-The red points mark intervals labeled as charging in the dataset.
+- [Machine Scheduling](notebooks/machine_scheduling.ipynb) — A binary assignment model selected six of nine jobs across three machines for 37 units of profit. [Original Colab notebook](https://colab.research.google.com/drive/1KwAVGhLQQXo6nM6NkMKrkK0dPJAWRbE_?usp=sharing)
+- [EV Charging Detection](https://colab.research.google.com/drive/1imM6GxT0zFiLUi0VVbpDA_JsNNKIwn16?usp=sharing) — Anomaly detection experiments on half-hourly smart-meter readings from 1,590 households, with supplied charging labels for comparison.
