@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Efosa Osazuwa’s portfolio of applied machine learning, energy markets, and optimization projects.">
+    <title>Project Portfolio | Efosa Osazuwa</title>
+    <link rel="stylesheet" href="./assets/portfolio.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header page-width">
+        <a class="wordmark" href="./">Efosa Osazuwa</a>
+        <nav aria-label="External links">
+            <a href="https://efosaosazuwa.com/">Personal site</a>
+            <a href="https://github.com/efosazuwa">GitHub</a>
+        </nav>
+    </header>
+
+    <main id="main" class="page-width">
+        <section class="intro" aria-labelledby="page-title">
+            <h1 id="page-title">Project portfolio</h1>
+            <p>Selected work in energy markets, optimization, and applied machine learning.</p>
+            <nav class="jump-links" aria-label="On this page">
+                <a href="#featured">Featured projects</a>
+                <a href="#projects">More projects</a>
+                <a href="#notebooks">Notebooks</a>
+            </nav>
+        </section>
+
+        <section class="project-section" id="featured" aria-labelledby="featured-heading">
+            <h2 id="featured-heading">Featured projects</h2>
+            <div class="project-grid">
+                <article class="project-card featured-card">
+                    <a class="project-image" href="./images/projects/wind-bidding.png">
+                        <img src="./images/projects/wind-bidding.png" width="1440" height="896"
+                            alt="Full-size chart of hourly wind offers and day-ahead price spreads">
+                    </a>
+                    <div class="project-copy">
+                        <h3>Day-Ahead Bidding for Wind Power</h3>
+                        <p>A Pyomo model compares a day-ahead wind schedule with real-time-only sales. It produced
+                            <strong>17.25% higher modeled revenue</strong> across the same 100 synthetic scenarios.</p>
+                        <a class="text-link" href="https://github.com/efosazuwa/day-ahead-market-model">View the formulation and code</a>
+                    </div>
+                </article>
+                <article class="project-card featured-card">
+                    <a class="project-image hotel-image" href="./images/projects/hotel-prediction.png">
+                        <img src="./images/projects/hotel-prediction.png" width="800" height="1081"
+                            alt="Full-size Flask form showing a sample hotel cancellation prediction">
+                    </a>
+                    <div class="project-copy">
+                        <h3>Hotel Reservation Cancellation Prediction</h3>
+                        <p>A LightGBM classifier with a Flask demo reached <strong>87.2% accuracy</strong> on 7,255
+                            test bookings, versus 66.3% for a baseline that predicts no cancellations.</p>
+                        <a class="text-link" href="https://github.com/efosazuwa/MLOPS-hotel">View the demo and evaluation</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="project-section" id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">More projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <a class="project-image" href="./images/projects/authorship.png">
+                        <img src="./images/projects/authorship.png" width="1054" height="521" loading="lazy"
+                            alt="Full-size next-character probability heatmaps for Shakespeare and Ireland">
+                    </a>
+                    <div class="project-copy">
+                        <h3>All the World’s a Chain</h3>
+                        <p>My senior research project used character-level Markov chains to compare Shakespeare’s
+                            writing with William Henry Ireland’s <i>Vortigern and Rowena</i>.</p>
+                        <a class="text-link" href="https://github.com/efosazuwa/markov_project">View the study and original presentation</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <a class="project-image" href="./images/projects/battery-dispatch.png">
+                        <img src="./images/projects/battery-dispatch.png" width="1440" height="1040" loading="lazy"
+                            alt="Full-size chart of NYISO prices, battery dispatch, and stored energy">
+                    </a>
+                    <div class="project-copy">
+                        <h3>Battery Arbitrage</h3>
+                        <p>An optimized 200 kWh battery schedule produced <strong>$8.93 in modeled net energy
+                            proceeds</strong> on a historical NYISO day.</p>
+                        <a class="text-link" href="https://github.com/efosazuwa/Battery-Arbitrage">View the historical dispatch example</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="project-section" id="notebooks" aria-labelledby="notebooks-heading">
+            <h2 id="notebooks-heading">Notebooks and experiments</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <a class="project-image" href="./images/machine_scheduling.png">
+                        <img src="./images/machine_scheduling.png" width="761" height="311" loading="lazy"
+                            alt="Full-size chart of six jobs assigned across three machines">
+                    </a>
+                    <div class="project-copy">
+                        <h3>Machine Scheduling</h3>
+                        <p>A binary assignment model selects six of nine jobs across three machines for
+                            <strong>37 units of profit</strong>.</p>
+                        <div class="project-links">
+                            <a class="text-link" href="./notebooks/machine_scheduling.ipynb" download>Download the notebook</a>
+                            <a class="text-link" href="https://colab.research.google.com/drive/1KwAVGhLQQXo6nM6NkMKrkK0dPJAWRbE_?usp=sharing">Open in Colab</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <a class="project-image" href="./images/EV_charging_annomalies.png">
+                        <img src="./images/EV_charging_annomalies.png" width="1335" height="436" loading="lazy"
+                            alt="Full-size household meter chart with supplied charging labels in red">
+                    </a>
+                    <div class="project-copy">
+                        <h3>EV Charging Detection</h3>
+                        <p>Anomaly detection experiments on half-hourly smart-meter readings from 1,590 households,
+                            with supplied charging labels for comparison.</p>
+                        <a class="text-link" href="https://colab.research.google.com/drive/1imM6GxT0zFiLUi0VVbpDA_JsNNKIwn16?usp=sharing">Open in Colab</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer page-width">
+        <span>Efosa Osazuwa</span>
+        <a href="https://github.com/efosazuwa/my-portfolio">View repository</a>
+    </footer>
+</body>
+</html>
