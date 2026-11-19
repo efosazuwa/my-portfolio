@@ -12,7 +12,9 @@ This represents an advanced pyomo model for minimizing risk for buying and selli
 
 # Project 3: Assortment of optimization models
 * This will serve as a growing list of optimization models I've created to keep my Linear Programming skills sharp
-  * [Machine Scheduling](https://colab.research.google.com/drive/1KwAVGhLQQXo6nM6NkMKrkK0dPJAWRbE_?usp=sharing)
+  * **Machine Scheduling** assigns six of nine jobs to three machines for an optimal profit of 37 units. The model uses job slots as capacity. [Runnable notebook](notebooks/machine_scheduling.ipynb) · [Open in Colab](https://colab.research.google.com/drive/1KwAVGhLQQXo6nM6NkMKrkK0dPJAWRbE_?usp=sharing)
+
+    ![One optimal machine assignment showing six jobs and their profit contributions](images/machine_scheduling.png)
   * [Battery Arbitrage](https://github.com/efosazuwa/Battery-Arbitrage)
 ![](/images/plot.png)
 
