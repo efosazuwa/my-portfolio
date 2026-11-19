@@ -27,12 +27,12 @@ For this project I built an authorship identification model with markov chains a
 ![](/images/markov_transition_matrix.png)
 
 
-# [Project 5: Electric Vehicle Charging Detection(Unfinished)](https://colab.research.google.com/drive/1imM6GxT0zFiLUi0VVbpDA_JsNNKIwn16#scrollTo=O6a21YEWCzbF)
-* Build visualizations that identify annomalies with seaborn and plotly
-* Engineered features from primary dataset 
-* Investigate annomaly detection with naive gaussian methods, Isolation forests, and Local Outlier Factor. 
-* TODO build different forecasting models with ARMA FFT, and RNN
-* TODO Build a client facing API using flask 
+# Project 5: EV Charging Detection
 
-![](/images/EV_charging_annomalies.png)
+This exploratory project uses half-hourly smart-meter readings from 1,590 households to investigate when an EV is charging. The notebook engineers household-level features and explores median absolute deviation, Elliptic Envelope, and Isolation Forest for anomaly detection. The examples compare candidate detections with supplied labels for individual households.
 
+[Open the original notebook in Colab](https://colab.research.google.com/drive/1imM6GxT0zFiLUi0VVbpDA_JsNNKIwn16?usp=sharing)
+
+![Half-hourly meter readings for one household, with supplied EV charging labels marked in red](images/EV_charging_annomalies.png)
+
+The red points mark intervals labeled as charging in the dataset.
